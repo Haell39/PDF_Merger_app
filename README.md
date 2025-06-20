@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# 📄 Mesclador de PDFs Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao projeto **PDF Merger Web App**! Uma ferramenta simples e eficiente para **combinar múltiplos ficheiros PDF num único documento**, diretamente no seu navegador. Este aplicativo foi concebido para ser intuitivo e rápido, sem a necessidade de upload de dados para servidores, garantindo total privacidade.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+### ✨ Funcionalidades
 
-### `npm start`
+* **Mesclagem Instantânea**: Una diversos PDFs num único documento com apenas alguns cliques.
+* **Processamento no Cliente**: Toda a operação de mesclagem é realizada localmente no seu navegador 🔒, garantindo a segurança e privacidade dos seus documentos.
+* **Interface Intuitiva**: Um design limpo e fácil de usar, permitindo uma experiência fluida.
+* **Suporte a Múltiplos Ficheiros**: Selecione quantos ficheiros PDF precisar.
+* **Download Simples**: Baixe o seu PDF mesclado instantaneamente após o processamento.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🛠️ Tecnologias Utilizadas
 
-### `npm test`
+* **React**: Biblioteca JavaScript para construir interfaces de utilizador dinâmicas.
+* **Tailwind CSS**: Framework CSS para estilização rápida e responsiva.
+* **pdf-lib**: Biblioteca JavaScript para criação e modificação de documentos PDF no navegador.
+* **lucide-react**: Coleção de ícones bonitos e personalizáveis para React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+### 🚀 Como Executar Localmente
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Siga estes passos para ter o aplicativo a correr na sua máquina:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1.  **Clone o repositório**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    git clone https://github.com/Haell39/PDF_Merger_app.git 
+    cd seu-repositorio
+    ```
 
-### `npm run eject`
+2.  **Instale as dependências**:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    ```bash
+    npm install
+    # ou
+    # yarn install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3.  **Inicie a aplicação**:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+    ```bash
+    npm start
+    # ou
+    # yarn start
+    ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    O aplicativo estará disponível em `http://localhost:3000` (ou uma porta similar) no seu navegador.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ☁️ Implantação (Deployment)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este aplicativo é um Single-Page Application (SPA) e pode ser facilmente implantado em serviços de hospedagem de sites estáticos. Recomendamos e utilizamos plataformas como:
 
-### Code Splitting
+* **Netlify**: Para implantação contínua e rápida.
+* **Vercel**: Uma alternativa popular com ótima experiência de desenvolvedor.
+* **GitHub Pages**: Ideal para projetos pessoais e de código aberto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### 💡 Próximos Passos (Potenciais)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Adicionar pré-visualização dos PDFs selecionados.
+* Funcionalidade de reordenar os PDFs antes da mesclagem.
+* Considerar a transformação numa extensão de navegador para acesso ainda mais direto.
