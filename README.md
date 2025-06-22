@@ -59,13 +59,10 @@ Siga estes passos para ter o aplicativo a correr na sua máquina:
 Este aplicativo é um Single-Page Application (SPA) e pode ser facilmente implantado em serviços de hospedagem de sites estáticos. Recomendamos e utilizamos plataformas como:
 
 * **Netlify**: Para implantação contínua e rápida.
-* **Vercel**: Uma alternativa popular com ótima experiência de desenvolvedor.
-* **GitHub Pages**: Ideal para projetos pessoais e de código aberto.
 
 ---
 
 ### 💡 Próximos Passos (Potenciais)
 
-* Adicionar pré-visualização dos PDFs selecionados.
 * Funcionalidade de reordenar os PDFs antes da mesclagem.
 * Considerar a transformação numa extensão de navegador para acesso ainda mais direto.
