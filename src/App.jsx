@@ -68,17 +68,12 @@ const App = () => {
   return (
       // Container principal da aplicação
       <div className="min-h-screen bg-gradient-to-br from-indigo-500 to-purple-700 flex items-center justify-center p-4 font-inter">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+        {/* REMOVIDO: <script src="https://cdn.tailwindcss.com"></script> */}
+        {/* REMOVIDO: <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script> */}
 
-        <style>
-          {`
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
-        .font-inter {
-            font-family: 'Inter', sans-serif;
-        }
-        `}
-        </style>
+        {/* O bloco <style> já está corretamente comentado/removido */}
+        {/* O CSS e a fonte agora são gerenciados via src/index.css e o build do Tailwind */}
+
 
         <div className="bg-white p-8 rounded-xl shadow-2xl w-full max-w-lg text-center transform hover:scale-105 transition-transform duration-300 ease-in-out">
           <h1 className="text-3xl font-bold text-gray-800 mb-6 flex items-center justify-center gap-2">
@@ -89,7 +84,7 @@ const App = () => {
             Selecione múltiplos arquivos PDF para mesclar em um único documento.
           </p>
 
-          {/*  upload de arquivos */}
+          {/* upload de arquivos */}
           <div className="mb-6 border-2 border-dashed border-gray-300 rounded-lg p-6 flex flex-col items-center justify-center hover:border-indigo-400 transition-colors duration-200">
             <input
                 id="pdf-upload"

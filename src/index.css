@@ -1,13 +1,27 @@
+/* src/index.css */
+
+/* 1. Diretivas do Tailwind CSS - SEMPRE no topo */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2. Importação da fonte Inter */
+/* A fonte Inter é carregada aqui, não mais no HTML */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* 3. Estilos globais para o corpo (body) */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  /* Aplica a fonte Inter globalmente */
+  font-family: 'Inter', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* 4. Estilos para elementos <code> */
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
